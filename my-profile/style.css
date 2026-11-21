@@ -1,0 +1,182 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Nunito', Arial, sans-serif;
+	background: linear-gradient(135deg, #d9f5ff, #b9edeb, #dff8d9);
+	color: #173b59;
+	margin: 0;
+	padding: 2rem;
+	line-height: 1.6;
+}
+
+header {
+	text-align: center;
+	background: linear-gradient(135deg, #64c9ee, #83e4d1);
+	padding: 2rem;
+	margin-bottom: 2rem;
+	border: 2px solid white;
+	border-radius: 1.5rem;
+	box-shadow: 0 5px 20px rgba(36, 111, 151, 0.2);
+}
+
+h1, h2, h3 {
+	font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+	font-size: 2.2rem;
+	color: #123c60;
+	margin-bottom: 0.3rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	color: #087e9e;
+	margin-top: 0;
+}
+
+h3 {
+	font-size: 1.2rem;
+	color: #167b8b;
+}
+
+.subtitle {
+	font-size: 1rem;
+	color: #174c63;
+}
+
+.profile-card,
+.content-card {
+	background: rgba(255, 255, 255, 0.75);
+	border-radius: 1.5rem;
+	padding: 2rem;
+	margin: 1.5rem auto;
+	max-width: 900px;
+	box-shadow: 0 5px 20px rgba(36, 111, 151, 0.15);
+}
+
+.bio-layout {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+}
+
+.bio {
+	flex: 1;
+	text-aligo: left;
+	padding: item;
+}
+
+.photo-placeholder img {
+	background: linear-gradient(145deg, #65c8ed, #9be8d2);
+	border: 3px solid white;
+	border-radius: 1.5rem;
+	width: 150px;
+	height: 150px;
+	flex-shrink: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 4px 15px rgba(36, 111, 151, 0.2);
+}
+
+.photo-placeholder img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 1.3rem;
+}
+
+.bio {
+	flex: 1;
+}
+
+.bio h2 {
+	margin-bottom: 0.3rem;
+}
+
+.bio p {
+	margin-top: 0;
+}
+
+.tagline {
+	font-style: italic;
+}
+
+p, li {
+	font-family: 'Nunito', Arial, sans-serif;
+	font-size: 1rem;
+}
+
+li {
+	margin-bottom: 0.3rem;
+}
+
+a {
+	font-family: 'Nunito', Arial, sans-serif;
+	color: #006b99;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.color-scheme {
+	display: block;
+	width: 50%;
+	height: auto;
+	margin: 30px auto;
+}
+
+footer {
+	font-family: 'Nunito', Arial, sans-serif;
+	text-align: center;
+	margin-top: 2rem;
+	padding: 1rem;
+	color: #174c63;
+	font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+
+	body {
+		padding: 1rem;
+	}
+
+	header {
+		padding: 1.5rem 1rem;
+	}
+
+	h1 {
+		font-size: 1.7rem;
+	}
+
+	.profile-card,
+	.content-card {
+		padding: 1.3rem;
+	}
+
+	.bio-layout {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+	.photo-placeholder {
+		width: 160px;
+		height: 180px;
+	}
+
+	.bio {
+   		width: 100%;
+	}
+
+	.bio ul {
+		display: inline-block;
+		text-align: left;
+	}
+}
